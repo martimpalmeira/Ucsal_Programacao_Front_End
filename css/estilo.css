@@ -1,0 +1,425 @@
+﻿body
+{    
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Estilo do Main */
+
+main {
+    
+    margin: left 20px;;
+    margin-right:auto;
+}
+
+header {
+    height: 156px;
+    background-color: #fac036;
+}
+
+header h1 {
+    margin:0;
+    padding:0;
+    padding-left:30px;
+    padding-top: 30px;
+    
+}
+
+header h1 a {
+    background: url(../fatiamento/logoBurguer.png) no-repeat;
+    display:block;
+    height:50px;
+    width: 300px;
+    padding-left:80px;
+    padding-bottom: 56px;
+    color: #411f0e;
+    font-size:24px;
+    text-decoration:none;
+    padding-top:20px;
+    float:left;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+
+
+.delivery{
+    display: inline-block;
+    float: right;
+    text-align: right;
+    width: 280px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.delivery img{
+    display: inline-block;
+    float: left;
+}
+
+.delivery p{
+    display: inline-block;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #411f0e;
+}
+
+
+
+/* Caixas dos Menus */
+
+header nav.menu_principal {
+    height: 34px;
+    float:right;
+}
+
+
+
+/* Caixas dos Menus */
+
+/* Menu de Mídia Social */
+.menu_principal ul li {
+    float: left;
+    margin: 0;
+    list-style: none;
+}
+
+.menu_principal ul li a {
+    display: block;
+    height: 34px;
+    width: 140px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #411f0e;
+    
+    
+}
+
+
+
+.sessao2{
+    background-color: #fac036;
+    padding-bottom: 165px;
+}
+
+.textoSessao2{
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.tracejado{
+    margin-top: 80px;
+    margin-left: 30px;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: dashed 1px;
+    width: 400px;
+    color: #411f0e;
+}
+
+.grandao{
+    font-size: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #411f0e;
+    text-shadow: 4px 4px white;
+}
+
+.medio{
+    font-size: 60px;
+    padding-left: 40px;
+    margin-top: 0; 
+    font-family: 'Alfa Slab One', cursive;
+    color: #411f0e;
+    text-shadow: 4px 4px white;
+}
+
+
+
+.sessao2 img{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    padding-right: 40px;
+}
+
+
+
+/*Sessão imagens*/
+
+.segundaImagem{
+    display: inline-block;
+    float: left;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.burguer3{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.burguer4{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+
+.chooseEnjoy{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 0;
+    color: #411f0e;
+    
+}
+/* Banner */
+
+
+
+
+
+#banner .texto_banner {
+    text-align: center;
+    color: #737373;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    padding-left: 170px;
+    padding-right: 90px;
+    width: 900px;
+    color: #411f0e;
+}
+
+#banner .botao_banner {
+    display: block;
+    width: 200px;
+    height: 35px;
+    background: #fac036;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #411f0e;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#banner a:hover.botao_banner {
+    background: #737373;
+}
+
+/* CSS das Chamadas */
+
+#chamadas {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.chamada {
+    width: 400px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 80px;
+    display: inline-block;
+}
+
+.titulo_chamada {
+    font-size: 24px;
+    font-weight: bold;
+    color:#411f0e;
+    text-align: center;
+}
+
+.texto_chamada {
+    color:#411f0e;
+    text-align: center;
+}
+
+.leia {
+    display: block;
+    width: 130px;
+    height: 25px;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #e03920;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 150px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+a:hover.leia {
+    background-color: #737373;
+}
+
+footer {
+    clear: both;
+    height: 500px;
+    background-color: #ffffff;
+    
+}
+
+.texto_rodape {
+    color: white;
+    font-weight: bold;
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+.events{
+    border: solid 5px #fac136;
+    padding-left: 50px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 40px;
+}
+
+.events .upcoming{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    
+}
+
+.events .burguer8{
+    width: 50%;
+
+}
+
+.events_title{
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.events_subtitle{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #411f0e;
+}
+
+.events_text{
+    font-size: large;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.events .dots a{
+    color:#dddddd;
+    font-size: 90px;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-decoration: none;
+    
+}
+
+.events .dot1 a{
+    color: #fac136;
+    text-decoration: none;
+}
+
+
+footer .esquerdaFooter{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+footer .direitaFooter{
+    width: 50%;
+    display: inline-block;
+    
+}
+
+footer p{
+    color:white;
+}
+
+footer{
+    background-color: #231005;
+    width: 1180px;
+    margin: 30px;
+    margin-left: 35px;
+    
+    
+}
+
+
+.topoEsquerdaFooter{
+    display: inline-flex;
+    height: 100px;
+    
+}
+
+.topoEsquerdaFooter .pBurguerHouse {
+    padding-top: 45px;
+    font-size: 45px;
+    padding-left: 20px;
+
+}
+
+.topoEsquerdaFooter .logoBurguer2{
+    padding-left: 80px;
+    margin-left: 20px;
+    padding-top: 60px;
+}
+
+.footerText{
+    padding-left: 110px;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+
+
+.direitaFooter .mainRoad{
+    display: inline-flex;
+    width: 100%;
+    padding-top: 240px;
+    padding-left: 100px;
+    
+}
+
+.direitaFooter .info{
+    display: inline-flex;
+    padding-left: 100px;
+}
+
+
+
+.menu_social ul li {
+    float: left;
+    margin: 0;
+    list-style: none;
+    padding-top: 80px;
+    
+   
+    
+    
+    
+}
+
+.menu_social{
+    padding-left: 380px;
+}
